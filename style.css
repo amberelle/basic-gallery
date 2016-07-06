@@ -1,11 +1,20 @@
 html{
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   text-transform:uppercase;
-  font-size: 3em;
+  font-size: 1em;
 }
 .wrap{
-  background-color:beige;
+  /*background-color:beige;*/
   height:100%;
+  color: black;
+background: repeating-linear-gradient(
+  to right,
+  #f6ba52,
+  #f6ba52 10px,
+  #ffd180 10px,
+  #ffd180 20px
+);
+
 
   overflow:auto;
 }
@@ -27,13 +36,15 @@ html{
   .item{
     width:48%;
 
-    
+    font-size:2em;
   }
 }
 
 @media screen and (min-width:1000px){
   .item{
     width:31%;
+
+    font-size:3em;
   }
 }
 
